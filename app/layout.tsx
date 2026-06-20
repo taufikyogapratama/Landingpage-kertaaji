@@ -47,14 +47,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://kertaaji.org", // TODO: Replace with your actual domain
+    url: "https://karang-taruna-kertaaji.vercel.app/", // TODO: Replace with your actual domain
     title: "KERTAAJI | Karang Taruna Jitar Dukuh",
     description:
       "Website resmi KERTAAJI, organisasi pemuda Karang Taruna Jitar Dukuh.",
     siteName: "KERTAAJI",
     images: [
       {
-        url: "/og-image.jpg", // TODO: Add a preview image in your public folder
+        url: "/logo.svg", // TODO: Add a preview image in your public folder
         width: 1200,
         height: 630,
         alt: "Kertaaji - Karang Taruna Jitar Dukuh",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "KERTAAJI | Karang Taruna Jitar Dukuh",
     description: "Website resmi organisasi pemuda Karang Taruna Jitar Dukuh.",
-    images: ["/og-image.jpg"],
+    images: ["/logo.svg"],
   },
 };
 
